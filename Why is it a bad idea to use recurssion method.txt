@@ -1,0 +1,8 @@
+Question: Why is it a bad idea to use recurssion method
+ to find the fibonacci of a number ?
+
+Response: Recursion uses more memory.
+Because the function has to add to the stack with each recursive
+call and keep the values there until the call is finished.
+The memory allocation is greater tha that of an iterative function.
+Recursion can be slow.
